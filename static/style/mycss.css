@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body{
+    background: linear-gradient(90deg, #2d2957 0%, #000000 99%);
+    font-family: roboto, serif;
+  
+}
+.navbar-expand-lg .navbar-nav .nav-link,
+p {
+    color: rgb(189, 189, 189);
+}
+
+.navbar-color{
+    background-color: #1c1828;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+
+    color: rgb(255, 255, 255);
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler{
+
+    color:rgb(196, 196, 196) ;
+
+}
+
+.pagination li a{
+    background-color: #2d2957;
+    border-color: #1c1828;
+    color: rgb(255, 255, 255);
+
+}
+
+.pagination li a:hover{
+    background-color: #5b51cb;
+    border-color: #1c1828;
+    color:rgb(196, 196, 196) ;
+}
+
+.pagination .page-item.active .page-link{
+    background-color: #3e3899;
+    border-color: #1c1828;
+
+
+}
+
+
+.footer-item p{
+    color: rgb(130, 127, 123);
+}
+
+.footer-item h4{
+    color: rgb(130, 127, 123);
+
+}
+.footer-item a{
+    color: #65619a;
+    text-decoration: none;
+}
+
+.jnjdnfjd{
+    font-weight: bold;
+}
+
+.footer-photo{
+    width: 50px;
+}
+.btn-outline-primary{
+    background: linear-gradient(270deg, #2d2957 0%, #000000 99%);
+border-color: #2d2957;
+color: antiquewhite;
+
+}
+.btn-outline-primary:hover{
+border-color: #2d2957;
+color: #494295;
+
+}
+.btn-text{
+    color:rgb(196, 196, 196) ;
+font-weight: bold;
+
+}
+.btn.btn-primary{
+    background-color: rgb(74, 61, 114);
+
+    border-style: none;}
+
+    .card{
+    background: linear-gradient(270deg, #2d2957 0%, #000000 99%);
+    color:rgb(196, 196, 196) ;
+
+    }
+
+    
+   .slidebar{
+    background: linear-gradient(270deg, #2d2957 0%, #000000 99%);
+    color:rgb(196, 196, 196) ;
+
+   }
+   .slidebar a{
+    color: rgb(59, 59, 180);
+   }
+
+   .slidertext{
+    color:rgb(196, 196, 196) ;
+   margin: auto auto;
+   }
+
+   @media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+   }
